@@ -12,7 +12,8 @@ let hexDigit: number = 0x14 // 16进制
 let myname: string = 'xuefeng'
 let age: number = 26
 let sentence = `hello, my name is ${myname}, I was ${age} years old` // ES6字符串模板写法
-let sentence1 = 'hello, my name is ' + myname + ' I was ' + age + ' years old ' // ES6之前的写法
+let sentence1 = 'hello, my name is ' + myname +
+  ' I was ' + age + ' years old ' // ES6之前的写法
 
 // array
 let list: number[] = [1, 2, 3] // 定义数组，且元素必须为数字，一般推荐这种写法
