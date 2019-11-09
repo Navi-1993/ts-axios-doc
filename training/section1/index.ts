@@ -71,3 +71,23 @@ function infiniteLoop(): never {
   while (true) {
   }
 }
+// fail() // 执行后会抛出我们定义的error错误
+
+
+
+//object 代表除基础类型之外
+
+declare function create(o: object | null): void;
+create(o: { prop: 0 })
+
+let someValue: any = 'thisis a string' // 定义一个变量，类型为any,赋值为string
+someValue.length // 这种情况下无法访问到字符串的length属性
+
+// 但可以通过下面这种方式来拿取字符串长度
+// let strLength: number = (<string>someValue).length
+
+
+
+// as 类型断言，断言某个变量为某种类型
+// 断言someValue 为 string 类型
+let strLength: number = (someValue as string).length
