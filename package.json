@@ -13,15 +13,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ustbhuangyi/ts-axios-doc.git"
+    "url": "git+https://github.com/Edmund-Wong/ts-axios-doc.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ustbhuangyi/ts-axios-doc/issues"
-  },
-  "homepage": "https://github.com/ustbhuangyi/ts-axios-doc#readme",
   "devDependencies": {
-    "vuepress": "^1.0.0-alpha.44"
+    "vuepress": "^1.2.0"
   }
 }
