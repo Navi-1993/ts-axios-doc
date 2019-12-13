@@ -1,6 +1,8 @@
 # ts-axios-doc
 
-TypeScript 从零实现 axios
+TypeScript 从零实现 axios 
+
+该项目为我使用typescript实现axios插件库时的笔记，安装依赖后打开即可查看相关的电子书
 
 ## 启动电子书
 
